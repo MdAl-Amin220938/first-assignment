@@ -22,10 +22,40 @@ nav {
 .btn-primary {
     background-color: #4E47FF;
     font-weight: bold;
+    font-size: 20px;
+    text-align: center;
     color: white;
     border: none;
     border-radius: 10px;
     padding: 15px 36px;
+    transition-duration: 0.4s;
+    text-decoration: none;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.btn-primary span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+.btn-primary span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+.btn-primary:hover span {
+  padding-right: 25px;
+}
+
+.btn-primary:hover span:after {
+  opacity: 1;
+  right: 0;
 }
 
 .banner {
@@ -91,20 +121,26 @@ nav {
     border-radius: 20px;
 
 }
+
 /* section-touch */
-.section-touch{
+.section-touch {
     padding: 130px 250px;
     display: flex;
     gap: 100px;
 }
-.column{
+
+.column {
     width: 50%;
-   
+
 }
-.form{
+
+.form {
     display: flex;
 }
-input[type="text"], footer input[type="email"], footer textarea{
+
+input[type="text"],
+footer input[type="email"],
+footer textarea {
     height: 64px;
     border-radius: 5px;
     background-color: white;

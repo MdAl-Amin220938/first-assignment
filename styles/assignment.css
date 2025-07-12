@@ -122,6 +122,7 @@ nav {
 .respose {
     color: #4E47FF;
     font-size: 80px;
+    padding: 0px;
 }
 
 /* review section */
@@ -187,8 +188,8 @@ nav {
 }
 
 input[type="text"],
-footer input[type="email"],
-footer textarea {
+ input[type="email"],
+ textarea {
     height: 64px;
     border-radius: 5px;
     background-color: white;
@@ -215,7 +216,11 @@ footer {
     list-style: none;
     text-decoration: none;
     justify-content: space-around;
+    padding: 0 50px;
 
+}
+.text-decoration{
+    text-decoration:solid;
 }
 
 .footer-title {
@@ -226,6 +231,19 @@ footer {
 .dark-1 {
     color: #8987A1;
 }
+.reviewer{
+display: flex;
+}
+.last{
+ text-align: center;
+ padding: 0 15px;
+}
+.reviewer-name,{
+    font-weight: bold;
+}
 
-
-
+.user-type{
+     font-weight: bold;
+     font-size: 40px;
+     padding: 0px;
+}

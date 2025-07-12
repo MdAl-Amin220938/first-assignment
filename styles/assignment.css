@@ -131,30 +131,34 @@ nav {
     gap: 24px;
     align-content: center;
     text-align: center;
+    justify-content: space-around;
     align-items: center;
+    padding:  30px;
+    border-radius: 25px;
+    
+   
+    
 }
-.skills
+
 .text-align {
     text-align: center;
 }
 
 .skill {
     padding: 30px;
-    border-radius: 5px;
+    border-radius: 10px;
     box-shadow: 0 6px 50px 0px rgba(0, 0, 0, 0.06);
 
+background-color: azure;
+ background-image: url('../images/icon-star.png');
+    background-repeat: no-repeat;
+    background-position: top left ;
 }
 
-/* .user-review {
-    text-align: center;
-    background-color: azure;
-}
+/* 
 
 .review-container {
-    background-image: url('../images/icon-star.png');
-    background-repeat: no-repeat;
-    background-position: top left;
-    gap: 24px;
+   
    
     text-align: center;
     justify-content: space-around;

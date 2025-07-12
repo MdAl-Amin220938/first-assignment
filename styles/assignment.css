@@ -13,11 +13,13 @@ nav {
     color: #4E47FF;
 
 }
+
 /* header */
-.header{
+.header {
     background-image: url('../images/Hero-bg.png');
 }
-.btn-primary{
+
+.btn-primary {
     background-color: #4E47FF;
     font-weight: bold;
     color: white;
@@ -25,32 +27,131 @@ nav {
     border-radius: 10px;
     padding: 15px 36px;
 }
-.banner{
-    justify-content:center;
+
+.banner {
+    justify-content: center;
 }
-.banner-title{
+
+.banner-title {
     font-weight: bold;
     font-size: 65px;
     color: #252432;
-   align-items: center;
-   padding: 300px 250px;
-   
+    align-items: center;
+    padding: 300px 250px;
+
 }
-.section-title{
+
+.section-title {
     font-weight: bold;
     font-size: 45px;
+    align-items: center;
 }
-.section-subtitle{
+
+.section-subtitle {
     color: #252432;
     font-size: 24px;
     font-weight: normal;
 }
-.sec
-{
+
+.sec {
     display: flex;
     justify-content: space-between;
     margin: 160px;
     padding: 220px;
     margin-top: 120px;
     background-color: #FFFFFF;
+}
+
+.productive-users {
+    text-align: center;
+    display: flex;
+    padding: 130px 150px;
+    border-radius: 10px;
+    justify-content: space-around;
+}
+
+/* review section */
+.user-review {
+    text-align: center;
+}
+
+.review-container {
+    background-image: url('../images/icon-star.png');
+    background-repeat: no-repeat;
+    background-position: top left;
+    gap: 24px;
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+
+}
+
+.review {
+    padding: 30px;
+    border-radius: 20px;
+
+}
+/* section-touch */
+.section-touch{
+    padding: 130px 250px;
+    display: flex;
+    gap: 100px;
+}
+.column{
+    width: 50%;
+   
+}
+.form{
+    display: flex;
+}
+input[type="text"], footer input[type="email"], footer textarea{
+    height: 64px;
+    border-radius: 5px;
+    background-color: white;
+    display: block;
+    width: 100%;
+    padding: 10px 20px;
+    margin-bottom: 24px;
+    border: none;
+
+}
+
+
+
+/* footer styles */
+footer {
+    text-align: center;
+    padding: 50px 550px;
+    background-color: #FFFFFF;
+
+
+}
+
+.footer-link {
+    list-style: none;
+    text-decoration: none;
+    justify-content: space-around;
+
+}
+
+.footer-title {
+    color: #4E47FF;
+    font-size: 100px;
+}
+
+.dark-1 {
+    color: #8987A1;
+}
+
+.respose {
+    color: #4E47FF;
+    font-size: 80px;
+}
+
+.users-seg {
+    text-align: center;
+    margin: 120px 200px;
+    padding: 30px 130px;
+    border-radius: 25px;
+    background-color: aliceblue;
 }

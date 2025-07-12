@@ -49,33 +49,38 @@ nav {
     right: -20px;
     transition: 0.5s;
 }
+
 .btn-primary:hover span {
-  padding-right: 25px;
+    padding-right: 25px;
 }
 
 .btn-primary:hover span:after {
-  opacity: 1;
-  right: 0;
+    opacity: 1;
+    right: 0;
 }
 
 .banner {
     justify-content: center;
+    align-items: center;
+    padding: 300px 400px;
+    text-align: center;
 }
 
 .banner-title {
     font-weight: bold;
     font-size: 65px;
     color: #252432;
-    align-items: center;
-    padding: 300px 250px;
-
 }
+
+.stay {}
 
 .section-title {
     font-weight: bold;
     font-size: 45px;
     align-items: center;
+    padding: 60px;
 }
+
 
 .section-subtitle {
     color: #252432;
@@ -86,23 +91,62 @@ nav {
 .sec {
     display: flex;
     justify-content: space-between;
-    margin: 160px;
-    padding: 220px;
-    margin-top: 120px;
-    background-color: #FFFFFF;
+    padding: 120px 160px;
+    border-radius: 50px;
+    background-color: aliceblue;
+}
+
+.wc-mini {
+    border-radius: 50px;
 }
 
 .productive-users {
     text-align: center;
     display: flex;
-    padding: 130px 150px;
-    border-radius: 10px;
+    padding: 45px 150px;
+    border-radius: 25px;
     justify-content: space-around;
+   
+}
+.main-seg{
+    background-color: azure;
+
+}
+.users-seg {
+    text-align: center;
+   
+    padding: 30px 350px;
+    border-radius: 25px;
+    background-color: #FFFFFF;
+}
+.respose {
+    color: #4E47FF;
+    font-size: 80px;
 }
 
 /* review section */
-.user-review {
+.skill-container {
+    display: flex;
+    gap: 24px;
+    align-content: center;
     text-align: center;
+    align-items: center;
+}
+.skills
+.text-align {
+    text-align: center;
+}
+
+.skill {
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0 6px 50px 0px rgba(0, 0, 0, 0.06);
+
+}
+
+/* .user-review {
+    text-align: center;
+    background-color: azure;
 }
 
 .review-container {
@@ -110,7 +154,7 @@ nav {
     background-repeat: no-repeat;
     background-position: top left;
     gap: 24px;
-    display: flex;
+   
     text-align: center;
     justify-content: space-around;
 
@@ -119,14 +163,18 @@ nav {
 .review {
     padding: 30px;
     border-radius: 20px;
-
+ display: flex;
 }
-
+ */
 /* section-touch */
 .section-touch {
-    padding: 130px 250px;
+    padding: 90px 250px;
     display: flex;
-    gap: 100px;
+    gap: 10px;
+    background-color: aliceblue;
+}
+.section-title{
+    padding: 200px 115px;
 }
 
 .column {
@@ -179,15 +227,5 @@ footer {
     color: #8987A1;
 }
 
-.respose {
-    color: #4E47FF;
-    font-size: 80px;
-}
 
-.users-seg {
-    text-align: center;
-    margin: 120px 200px;
-    padding: 30px 130px;
-    border-radius: 25px;
-    background-color: aliceblue;
-}
+
